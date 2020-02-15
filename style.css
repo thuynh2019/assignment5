@@ -13,23 +13,26 @@ body {
 /* Layout */
 
 section {
-
+  width: 50%;
+  float: left;
 }
 
 main {
-  
+
 }
 
 aside {
-
+  float: left;
+  width: 50%;
 }
 
 nav {
-
+  float: left;
+  width: 30%;
 }
 
 footer {
-
+  clear: both;
 }
 
 header, section, aside, nav, footer {
@@ -44,3 +47,25 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+h1, h2 {
+  letter-spacing: 2px;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  word-spacing: 1.5px;
+}
