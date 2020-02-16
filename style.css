@@ -69,3 +69,32 @@ p, li {
   letter-spacing: 0.3px;
   word-spacing: 1.5px;
 }
+
+a {
+  outline: none;
+  padding-right: 20px;
+}
+
+ul, ol {
+  margin: 1.5rem 0;
+}
+
+ul {
+
+}
+
+nav ul {
+  padding-left: 0;
+  margin-top: 0.8rem;
+}
+
+nav li {
+  margin-bottom: 2rem;
+}
+
+nav li a{
+  text-decoration: none;
+  line-height: 3;
+  text-align: center;
+  border: 1px solid #ddd;
+}
