@@ -80,7 +80,7 @@ p, li {
   font-size: 1.6rem;
   line-height: 1.5;
   letter-spacing: 0.5px;
-  word-spacing: 3px;
+  word-spacing: 1px;
 }
 
 a {
@@ -93,7 +93,8 @@ a:active {
 }
 a[href*="http"] {
   padding-right: 19px;
-  
+  background: url(images/Programming-External-Link-icon.png) no-repeat 100%;
+  background-size: 16px 16px;
 }
 
 a:link, a:visited {
